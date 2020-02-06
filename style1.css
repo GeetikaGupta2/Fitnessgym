@@ -1,0 +1,98 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url(downloadimages/images11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     font-family: 'Baloo Bhai';font-size: 20px;
+    
+}
+
+
+
+.left {
+    display: inline-block;
+    position:absolute;
+    left:60px;
+    top:20px;
+}
+.left img{
+    width:90px;
+    
+}
+.left div{
+    line-height: 19px;
+    font-size: 20px;
+    text-align: center;
+    color:White;
+}
+
+.navbar{
+    width:500px;
+    margin-left:350px;
+    font-size: 20px;
+    
+}
+.navbar ul{
+    overflow: auto;
+    
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    margin: 10px 18px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color:white;
+}
+.navbar li a:hover{
+    color:red;
+    
+}
+
+.search{
+    float:right;
+    color:blue;
+    padding:12px 75px;
+}
+.right{
+    position:absolute;
+    right:34px;
+    top:20px;
+    display:inline-block;
+    border:2px solid yelow;
+    
+}
+.btn{
+    margin:0px 9px;
+    background-color:dimgray;
+    color:white;
+    padding:4px 14px;
+    border:2px solid grey;
+    border-radius:10px;
+    font-size:20px;
+    cursor:pointer;
+}
+.btn:hover{
+    color:red;
+}
+.container{
+    border:2px solid purple;
+    width:250px;
+    height:200px;;
+    margin:20px;
+    padding:20px;
+    margin-left:900px;
+    border-radius:25px;
+    color:white;
+
+}
+h1{
+    width:500px;
+    margin-top:180px;
+    padding-left:10px;
+    margin-left:900px;
+    color:white;
+}
